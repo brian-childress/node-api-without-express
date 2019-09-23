@@ -1,0 +1,13 @@
+{
+  "name": "node-api-without-express",
+  "version": "1.0.0",
+  "description": "A simple NodeJS API server using the native HTTP module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "npm install -g nodemon && nodemon -L app.js"
+  },
+  "keywords": [],
+  "author": "Brian Childress, brian@brianchildress.co",
+  "license": "ISC"
+}
